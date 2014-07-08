@@ -2,11 +2,13 @@
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     id="com.ionic.keyboard"
-    version="0.0.1">
+    version="1.0.2">
     <name>Keyboard</name>
     <description>Ionic Keyboard Plugin</description>
     <license>Apache 2.0</license>
     <keywords>Ionic,keyboard</keywords>
+    <repo>https://github.com/driftyco/ionic-plugins-keyboard.git</repo>
+    <issue>https://github.com/driftyco/ionic-plugins-keyboard/issues</issue>
 
   <js-module src="www/keyboard.js" name="keyboard">
     <clobbers target="cordova.plugins.Keyboard" />

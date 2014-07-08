@@ -1,0 +1,36 @@
+{
+  "ProjectGuid": "7d926f17-4c6e-4879-acd1-775b5e502644",
+  "AppIdentifier": "com.telerik.plugindemo.keyboard",
+  "ProjectName": "Keyboard",
+  "IsRunnable": "true",
+  "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
+  "FrameworkVersion": "3.2.0",
+  "AndroidPermissions": [
+    "android.permission.INTERNET",
+    "android.permission.ACCESS_NETWORK_STATE"
+  ],
+  "CorePlugins": [
+    "org.apache.cordova.console",
+    "org.apache.cordova.device",
+    "org.apache.cordova.network-information",
+    "org.apache.cordova.dialogs",
+    "org.apache.cordova.splashscreen",
+    "org.apache.cordova.statusbar"
+  ],
+  "DeviceOrientations": [
+    "Portrait",
+    "Landscape"
+  ],
+  "iOSStatusBarStyle": "Default",
+  "AndroidHardwareAcceleration": "false",
+  "WP8SupportedResolutions": [
+    "ID_RESOLUTION_WVGA",
+    "ID_RESOLUTION_WXGA",
+    "ID_RESOLUTION_HD720P"
+  ],
+  "BundleVersion": "1.0",
+  "DisplayName": "Keyboard plugin demo",
+  "Author": "Telerik",
+  "Framework": "Cordova",
+  "Description": "Keyboard plugin demo"
+}
