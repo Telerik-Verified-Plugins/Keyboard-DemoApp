@@ -43,11 +43,15 @@
         },
 
         checkSimulator: function() {
-            if (cordova.plugins === undefined) {
-                alert('Plugin not available. Are you running in the simulator?');
+            if (window.navigator.simulator === true) {
+                alert('This plugin is not available in the simulator.');
                 return true;
+            } else if (cordova.plugins.Keyboard === undefined) {
+                alert('Plugin not found. Maybe you are running in AppBuilder Companion app which currently does not support this plugin.');
+                return true;
+            } else {
+                return false;
             }
-            return false;
         },
 
         // callbacks
