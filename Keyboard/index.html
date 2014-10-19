@@ -60,8 +60,14 @@
             <button data-role="button" class="button" data-bind="click: enableScroll">Enable scroll</button>
             <button data-role="button" class="button" data-bind="click: disableScroll">Disable scroll</button>
 
-            <h3>Keyboard control</h3>
-            <button data-role="button" class="button" data-bind="click: closeKeyboard">Close the keyboard</button>
+            <h3 class="hassubtitle">Show the Keyboard</h3>
+            <div class="subtitle">
+                Android only
+            </div>
+            <button data-role="button" class="button" data-bind="click: showKeyboard">Show</button>
+
+            <h3>Close the Keyboard</h3>
+            <button data-role="button" class="button" data-bind="click: closeKeyboard">Close</button>
 
             <h3>Text input for keyboard tests</h3>
             <input id="feedback" type="text" value="Tap here to show the keyboard.." />

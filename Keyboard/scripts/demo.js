@@ -36,6 +36,15 @@
             }
         },
 
+        showKeyboard: function () {
+            if (!this.checkSimulator()) {
+                // wrapping in a little timeout because otherwise the button click event will hide it again
+                setTimeout(function() {
+    	            cordova.plugins.Keyboard.show();                    
+                }, 310)
+            }
+        },
+
         closeKeyboard: function () {
             if (!this.checkSimulator()) {
 	            cordova.plugins.Keyboard.close();
