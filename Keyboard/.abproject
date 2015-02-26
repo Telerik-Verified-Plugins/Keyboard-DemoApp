@@ -4,7 +4,7 @@
   "ProjectName": "Keyboard",
   "IsRunnable": "true",
   "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
-  "FrameworkVersion": "3.5.0",
+  "FrameworkVersion": "3.7.0",
   "AndroidPermissions": [
     "android.permission.INTERNET",
     "android.permission.ACCESS_NETWORK_STATE"
@@ -32,5 +32,8 @@
   "DisplayName": "Keyboard plugin demo",
   "Author": "Telerik",
   "Framework": "Cordova",
-  "Description": "Keyboard plugin demo"
+  "Description": "Keyboard plugin demo",
+  "projectVersion": "1",
+  "WP8PublisherID": "{ccbc598a-6835-453c-bd60-9cf659779f45}",
+  "WP8ProductID": "{9b06f732-fba5-4ecd-9bb9-553957374c02}"
 }
