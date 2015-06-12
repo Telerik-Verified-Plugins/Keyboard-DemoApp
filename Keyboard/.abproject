@@ -4,25 +4,26 @@
   "ProjectName": "Keyboard",
   "IsRunnable": "true",
   "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
-  "FrameworkVersion": "3.7.0",
+  "FrameworkVersion": "4.0.0",
   "AndroidPermissions": [
     "android.permission.INTERNET",
     "android.permission.ACCESS_NETWORK_STATE"
   ],
   "CorePlugins": [
-    "org.apache.cordova.console",
-    "org.apache.cordova.device",
-    "org.apache.cordova.network-information",
-    "org.apache.cordova.dialogs",
-    "org.apache.cordova.splashscreen",
-    "org.apache.cordova.statusbar"
+    "cordova-plugin-console",
+    "cordova-plugin-crosswalk-webview@1.2.0",
+    "cordova-plugin-device",
+    "cordova-plugin-dialogs",
+    "cordova-plugin-network-information",
+    "cordova-plugin-splashscreen",
+    "cordova-plugin-statusbar"
   ],
   "DeviceOrientations": [
     "Portrait",
     "Landscape"
   ],
   "iOSStatusBarStyle": "Default",
-  "AndroidHardwareAcceleration": "false",
+  "AndroidHardwareAcceleration": "true",
   "WP8SupportedResolutions": [
     "ID_RESOLUTION_WVGA",
     "ID_RESOLUTION_WXGA",
@@ -35,5 +36,7 @@
   "Description": "Keyboard plugin demo",
   "projectVersion": "1",
   "WP8PublisherID": "{ccbc598a-6835-453c-bd60-9cf659779f45}",
-  "WP8ProductID": "{9b06f732-fba5-4ecd-9bb9-553957374c02}"
+  "WP8ProductID": "{9b06f732-fba5-4ecd-9bb9-553957374c02}",
+  "WP8WindowsPublisherName": "CN=Telerik",
+  "WP8PackageIdentityName": "1234Telerik.com.telerik.plugindemo.keyboard"
 }
